@@ -2,6 +2,7 @@
 
 ## HTML의 기본 구조
 
+html```
 <!DOCTYPE html>
 <html lang="en">
     <head>
