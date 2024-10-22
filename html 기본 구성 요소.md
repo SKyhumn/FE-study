@@ -2,7 +2,6 @@
 
 ## HTML의 기본 구조
 
-jsx
 <!DOCTYPE html>
 <html lang="en">
 <head>
