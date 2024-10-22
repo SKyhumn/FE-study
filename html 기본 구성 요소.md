@@ -2,8 +2,9 @@
 
 ## HTML의 기본 구조
 
-```html
-<!DOCTYPE html>
+<pre>
+    <code>  
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +15,9 @@
     
 </body>
 </html>
+    </code>
+</pre>
+
 <head>는 문서 정보를 정의한다.
 <body>는 웹 브라우저에 표시할 내용을 담는다.
 태그
