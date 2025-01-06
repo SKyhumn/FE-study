@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Dongle&family=Nanum+Pen+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Dongle&family=Karla:ital,wght@0,200..800;1,200..800&family=Nanum+Pen+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+.container{
+    width:318px;
+    height:460px;
+    background-color:rgb(253, 253, 253);
+    border-radius:10px;
+    box-shadow:0px 2px 6px 0px rgb(178, 178, 178);
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -55%);
+}
+h1{
+    font-family:"Tilt Warp";
+    text-align:center;
+    font-size:48px;
+    font-weight:300;
+    margin-bottom:20px;
+}
+p{
+    font-family:"Karla";
+    margin-left:20px;
+    margin-bottom:5px;
+    font-size:12px;
+}
+input[type="textarea"]{
+    margin-left:20px;
+    height:25px;
+    width:260px;
+    border:1px solid rgb(212, 212, 212);
+    border-radius:4px;
+    margin-bottom:-12px;
+    padding-left:12px;
+    font-size:12px;
+    font-family:"Karla";
+}
+input[type="password"]{
+    margin-left:20px;
+    height:25px;
+    width:260px;
+    border:1px solid rgb(212, 212, 212);
+    border-radius:4px;
+    margin-bottom:7px;
+    padding-left:12px;
+    font-size:12px;
+}
+input[type="checkbox"]{
+    accent-color:black;
+    margin-left:20px;
+    border:1px solid rgb(0, 0, 0);
+    width:10px;
+    height:10px;
+}
+span{
+    font-family:"Karla";
+    margin-left:8px;
+    font-size:12px;
+}
+.signinbutton{
+    margin-left:20px;
+    margin-top:10px;
+    width:276px;
+    height:34px;
+    border-radius:20px;
+    border:1px solid black;
+    background-color:black;
+    color:white;
+    font-size:14px;
+}
+.orstartwith{
+    margin-left:0px;
+    color:#7c7c7c;
+    display:flex;
+    align-items:center;
+}
+.orstartwith::before,
+.orstartwith::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background: #7c7c7c;
+    margin:0 15px;
+}
+img{
+    width:10px;
+    height:10px;
+}
+button{
+    width:50px;
+    height:50px;
+    border:0px;
+    border-radius:40px;
+    margin-left:22.5px;
+}
+.google{
+    margin-left:55px;
+    margin-top:10px;
+    position:relative;
+    background-color:#f5f5f5;
+    top:2px;
+}
+.apple{
+    background-color:black;
+}
+.facebook{
+    background-color:#0866ff;
+}
+i{
+    color:white;
+    font-size:25px;
+}
+img{
+    width:22px;
+    height:22px;
+    margin-top:5px;
+}
+.link{
+    text-decoration:none;
+    color:#7c7c7c;
+    font-family:"Karla";
+    font-size:12px;
+    text-align:center;
+}
+.link p{
+    margin-left:-5px;
+    margin-bottom:-20px;
+}
