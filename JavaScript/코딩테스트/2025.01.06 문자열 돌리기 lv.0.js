@@ -11,7 +11,6 @@ rl.on('line', function (line) {
 }).on('close',function(){
     str = input[0];
     for(let a=0;a<str.length;a++){
-        let x=str.charCodeAt(a);
-        console.log(String.fromCharCode(x));
+        console.log(str[a]);
     }
 });
