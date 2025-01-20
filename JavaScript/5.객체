@@ -1,0 +1,82 @@
+```jsx
+const person={
+	name:"Hong Gildong",
+	age:20,
+	isAdult:true,
+	printInfo:function(){
+		console.log('printinfo');
+	}
+};
+```
+
+- 객체는 이렇게 리터럴 방식으로 생성할 수 있다.
+- 데이터의 종류를 가리지 않고 모든 자료형을 데이터 값으로 저장할 수 있다.
+
+## 객체 속성에 접근하기
+
+```jsx
+const ChoiJunYoung={
+    name:{
+	    firstname:"JunYoung",
+	    lastname:"Choi"
+    }, //객체 리터럴
+    age:18, //숫자
+    MBTI:"ESFJ", //문자열
+    hobby:["playing game", "playing baseball"], //배열
+    printhello:function(){
+        return 'hello world';
+    } //함수
+};
+
+console.log(ChoiJunYoung.name.lastname); //객체 리터럴에 있는 속성 중 lastname 속성 출력
+console.log(ChoiJunYoung.age); //숫자 출력
+console.log(ChoiJunYoung.hobby[1]); //배열 출력
+console.log(ChoiJunYoung.MBTI); //문자열 출력
+console.log(ChoiJunYoung.printhello()); //함수 실행
+```
+
+- .을 이용해 객체 속성에 접근할 수 있다.
+
+```jsx
+객체 이름.속성 //문자열, 숫자열
+객체 이름.속성[배열 번호] //배열
+객체 이름.속성.속성 리터럴속 속성 //속성 리터럴
+객체 이름.함수이름() //함수
+```
+
+- 이렇게 객체 속성에 접근할 수 있다.
+
+## 객체 속성 값 변경하기
+
+```jsx
+const person={
+	name:"Hong Gildong"
+};
+person.name="Kim";
+console.log(person.name);//Kim
+```
+
+- 객체로 정의된 값을 바꾸고 싶다면 키로 속성에 접근해 값을 재할당 하면 된다.
+
+## 객체 속성 동적으로 추가하기
+
+```jsx
+const person={};
+console.log(person);//{}
+person.name="Hong Gildong";
+console.log(person);//{name:'Hong Gildong'}
+```
+
+- 객체의 속성에 접근해 값을 변경할 때 처럼 키에 값을 할당하면, 속성을 추가할 수 있다.
+
+## 객체 속성 동적으로 삭제하기
+
+```jsx
+const person={
+	name:"Hong Gildong"
+};
+delete person.name;
+console.log(person);
+```
+
+- delete 키워드를 명시하면 해당 속성이 삭제된다.
