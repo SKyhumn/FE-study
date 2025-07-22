@@ -104,3 +104,35 @@ const john:member=["John", 123456, true];
 ```
 
 type 형식의 변수를 선언한 뒤 변수의 타입을 지정할 수 있다.
+
+## 인터페이스
+
+interface는 객체의 구조를 정의하는 문법이다.
+
+### 쓰는 이유
+
+- 코드의 가독성 향상⇒구조가 정리되어 이해하기 쉬움.
+- json같은 객체 정보 타입 쉽게 지정
+
+```tsx
+interface user{
+    name:string,
+    age:number,
+    phone:string,
+    gender:string
+    hobby:string[]
+    MBTI:string
+}
+
+const me:user={
+    name:"최준영",
+    age:17,
+    phone:"010-5858-0999",
+    gender:"Male",
+    hobby:["운동","SNS","게임"],
+    MBTI:"ESFJ"
+}
+```
+
+- user라는 interface 객체를 생성함.
+- me라는 객체 변수를 만들어 user타입을 지정해주고 속성값을 입력함.
