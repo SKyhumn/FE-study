@@ -31,7 +31,7 @@ const heavyCalculation = (num: number) => {
 const doubleNumber = useMemo(() => heavyCalculation(number), [number]);
 ```
 
-useMemo를 사용해서 계산 속도를 최적화할 수 있다.
+useMemo를 사용해서 불필요한 렌더링을 방지할 수 있다.
 
 number가 바뀔 때에만 useMemo를 실행한다.
 
