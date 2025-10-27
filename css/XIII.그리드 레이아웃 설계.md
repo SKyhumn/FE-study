@@ -2,7 +2,7 @@
 
 ## 구성요소
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/abfe147f-9142-46a4-b7ae-6fbc555ed6e3/image.png)
+![image.png](https://thebook.io/img/080313/290.jpg)
 
 - 행(row):그리드 레이아웃에서 가로줄을 의미한다.
 - 열(column):그리드 레이아웃에서 세로줄을 의미한다.
