@@ -8,7 +8,7 @@
 
 ## 플렉스 박스 레이아웃 살펴보기
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/78b0bc94-8e1d-4a4b-a847-996dc6a3669d/image.png)
+![image.png](https://thebook.io/img/080313/278.jpg)
 
 - 주축(main axis):플렉스 박스의 진행 방향과 수평한 축
 - 교차축(cross axis):주축과 수직한 축을 말한다.
@@ -26,15 +26,15 @@ display:flex; /*inline-flex*/;
 
 ### display를 flex로 안 했을 때
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/3355aec6-50a7-4fb1-86c6-c1e935d0578c/image.png)
+![image.png](./img/스크린샷XV)
 
 ### display를 flex로 했을 때
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/da60d2d4-c67f-411b-a2f7-91302487e986/image.png)
+![image.png](./img/스크린샷XVI)
 
 ### display를 inline-flex로 했을 때
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/44fbac60-73db-4920-b737-6212813301cf/image.png)
+![image.png](./img/스크린샷XVII)
 
 ## flex-direction속성
 
