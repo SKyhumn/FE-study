@@ -10,11 +10,11 @@
 
 1.폰트를 찾았으면 ‘Get font ‘버튼을 누른다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/9154e185-a7df-49e1-896f-202ebee2a46c/image.png)
+![image.png](./img/스크린샷X)
 
 2.’Get embed code’버튼을 누른다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/ea3488e5-4f40-4cfa-a69a-2999db83a2b9/image.png)
+![image.png](./img/스크린샷XI)
 
 3.’import’를 선택하고 @import문 코드와 그 아래에 있는 css코드를 복사해 <style>태그 안에 넣어준다
 
@@ -38,15 +38,15 @@
 
 ### cdnjs, font-awesome으로 아이콘 폰트 적용하기
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/aa22e256-bbed-450b-8e08-7e246eb547d0/image.png)
+![image.png](./img/스크린샷XII)
 
 1.cdnjs사이트에서 font-awesome을 검색하고 ‘</>’를 눌러 코드를 복사한 뒤 html 파일의 head 태그 안에 붙여 넣는다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/3ee6014d-c955-4f5f-b73c-0c36afc4d502/image.png)
+![image.png](./img/스크린샷XIII)
 
 2.font-awesome사이트에서 원하는 아이콘 찾기
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/3c63fef9-b32c-4c10-83b6-2a1fff624a56/image.png)
+![image.png](./img/스크린샷XIV)
 
 3.코드를 복사하고 html 문서에 붙여 넣으면 된다.
 
