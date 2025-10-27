@@ -4,7 +4,7 @@
 
 ## 뷰포트
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/8461c44b-9fda-40a0-95a8-9bf745f6aa6a/image.png)
+![image.png](https://images.velog.io/images/ken1204/post/1c96a90f-b135-42b9-a2dd-57a8829aff4a/image.png)
 
 - 뷰포트란 웹 페이지가 접속한 기기에서 보이는 실제 영역의 크기를 의미한다.
 - HTML문서는 어떤 기기에서 접속하더라도 기본으로 980px 크기를 기준으로 보여 주게 설정되어 있다.
