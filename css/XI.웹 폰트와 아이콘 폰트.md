@@ -6,7 +6,7 @@
 
 ### 대표적인 웹 폰트 사이트 구글 폰트 사용하기
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b71c3dad-f980-4ed0-8708-034050be882c/7084be6d-8507-409c-9f24-fabd11d3624b/image.png)
+![image.png](./img/스크린샷9)
 
 1.폰트를 찾았으면 ‘Get font ‘버튼을 누른다.
 
